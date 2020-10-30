@@ -1,0 +1,56 @@
+<!doctype html>
+{% load static %}
+<html lang="en" style="background:url({% static 'contenido/imagenes/fondo_2.jpg' %})">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'contenido/uikit/uikit.min.css' %}">
+    <link rel="stylesheet" href="{% static 'contenido/estilo.css' %}">
+
+      <title>inicio | CETAF</title>
+  </head>
+  <body>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body uk-width-1-2@s" style="width:256px; height:850px; margin-left:10px">
+          <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
+              <li class="uk-active"><a href="#">Active</a></li>
+              <li class="uk-parent">
+                  <a href="#"><span class="uk-margin-small-right" uk-icon="icon: user"></span>Parent</a>
+                  <ul class="uk-nav-sub">
+                      <li><a href="#">Sub item</a></li>
+                      <li><a href="#">Sub item</a></li>
+                  </ul>
+              </li>
+              <li class="uk-parent">
+                  <a href="#">Parent</a>
+                  <ul class="uk-nav-sub">
+                      <li><a href="#">Sub item</a></li>
+                      <li><a href="#">Sub item</a></li>
+                  </ul>
+              </li>
+              <li class="uk-nav-header">TABLERO DE CONTROL</li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: user"></span> Usuarios</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Categorias</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: nut"></span> Activos</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: users"></span> Tipo Usuarios</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: location"></span> Sedes</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: home"></span> Ambientes</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: plus-circle"></span> Asignaciones</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: database"></span> Consultas</a></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: lock"></span> Copia Seguridad</a></li>
+              <li class="uk-nav-divider"></li>
+              <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+          </ul>
+      </div>
+    </div>
+    <footer style="text-align:center">
+      <span>CETAF 2020 | Creado por Shihan</span>
+    </footer>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="{% static 'plugins/uikit/uikit.min.js' %}"></script>
+    <script src="{% static 'plugins/uikit/uikit-icons.min.js' %}"></script>
+  </body>
+</html>
